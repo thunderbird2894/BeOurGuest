@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
 body{
 	nav{
 		.navbar-brand{
@@ -6,10 +8,80 @@ body{
 		}
 	}
 
+	.navbar{
+		background: #7d0f3f;
+		.nav {
+
+			a{
+				color: white;
+				font-family: 'Roboto', sans-serif;
+			}
+
+			a:hover{
+				color: #bcbcbc;
+			}
+
+			.open{
+				.dropdown-toggle{
+					background: white;
+					color: #7d0f3f;
+				}
+			}
+
+			.dropdown{
+
+				.dropdown-menu{
+					padding: 0;
+				}
+
+				ul{
+
+					a:hover{
+						background: #7d0f3f;
+						color: white;
+					}
+					.dropdown1{
+						background: #621919;
+					}
+
+					.dropdown2{
+						background: #701313;
+					}
+
+					.dropdown3{
+						background: #800b0b;
+					}
+
+					.dropdown4{
+						background: #951313;
+					}
+
+					.dropdown5{
+						background: #a71b1b;
+					}
+
+					.dropdown6{
+						background: #af2a2a;
+					}
+				}
+			}
+		}
+	}
+
 	header{
+
+		.slide{
+			.item{
+				max-height: 400px;
+			}
+		}
 		h1{
 			display: none;
 		}
+
+
 	}
 }
+	
+
 

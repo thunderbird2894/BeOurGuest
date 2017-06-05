@@ -1,6 +1,36 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto");
 body nav .navbar-brand {
   padding: 0;
   padding-top: 5px; }
+body .navbar {
+  background: #7d0f3f; }
+  body .navbar .nav a {
+    color: white;
+    font-family: 'Roboto', sans-serif; }
+  body .navbar .nav a:hover {
+    color: #bcbcbc; }
+  body .navbar .nav .open .dropdown-toggle {
+    background: white;
+    color: #7d0f3f; }
+  body .navbar .nav .dropdown .dropdown-menu {
+    padding: 0; }
+  body .navbar .nav .dropdown ul a:hover {
+    background: #7d0f3f;
+    color: white; }
+  body .navbar .nav .dropdown ul .dropdown1 {
+    background: #621919; }
+  body .navbar .nav .dropdown ul .dropdown2 {
+    background: #701313; }
+  body .navbar .nav .dropdown ul .dropdown3 {
+    background: #800b0b; }
+  body .navbar .nav .dropdown ul .dropdown4 {
+    background: #951313; }
+  body .navbar .nav .dropdown ul .dropdown5 {
+    background: #a71b1b; }
+  body .navbar .nav .dropdown ul .dropdown6 {
+    background: #af2a2a; }
+body header .slide .item {
+  max-height: 400px; }
 body header h1 {
   display: none; }
 
