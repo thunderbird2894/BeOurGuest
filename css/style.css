@@ -3,7 +3,8 @@ body nav .navbar-brand {
   padding: 0;
   padding-top: 5px; }
 body .navbar {
-  background: #7d0f3f; }
+  background: #7d0f3f;
+  margin: 0; }
   body .navbar .nav a {
     color: white;
     font-family: 'Roboto', sans-serif; }
@@ -29,9 +30,26 @@ body .navbar {
     background: #a71b1b; }
   body .navbar .nav .dropdown ul .dropdown6 {
     background: #af2a2a; }
-body header .slide .item {
-  max-height: 400px; }
-body header h1 {
-  display: none; }
+
+body header {
+  background: #990033;
+  position: relative; }
+  body header .container .welcome {
+    position: absolute;
+    background-color: rgba(216, 152, 10, 0.4);
+    top: 58%;
+    left: 60%;
+    max-width: 36%;
+    max-height: 40%;
+    border-radius: 5px;
+    padding: 0 10px;
+    box-sizing: border-box;
+    color: white; }
+    body header .container .welcome h1 {
+      display: none; }
+  body header .carousel {
+    max-height: 400px; }
+    body header .carousel .carousel-inner .item img {
+      overflow: hidden; }
 
 /*# sourceMappingURL=style.css.map */

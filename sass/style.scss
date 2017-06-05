@@ -1,85 +1,44 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto');
+@import "nav";
+@import "variables";
 
 body{
-	nav{
-		.navbar-brand{
-			padding: 0;
-			padding-top: 5px;
-		}
-	}
-
-	.navbar{
-		background: #7d0f3f;
-		.nav {
-
-			a{
-				color: white;
-				font-family: 'Roboto', sans-serif;
-			}
-
-			a:hover{
-				color: #bcbcbc;
-			}
-
-			.open{
-				.dropdown-toggle{
-					background: white;
-					color: #7d0f3f;
-				}
-			}
-
-			.dropdown{
-
-				.dropdown-menu{
-					padding: 0;
-				}
-
-				ul{
-
-					a:hover{
-						background: #7d0f3f;
-						color: white;
-					}
-					.dropdown1{
-						background: #621919;
-					}
-
-					.dropdown2{
-						background: #701313;
-					}
-
-					.dropdown3{
-						background: #800b0b;
-					}
-
-					.dropdown4{
-						background: #951313;
-					}
-
-					.dropdown5{
-						background: #a71b1b;
-					}
-
-					.dropdown6{
-						background: #af2a2a;
-					}
-				}
-			}
-		}
-	}
 
 	header{
+		background: $color-fondo;
+		position: relative;
 
-		.slide{
-			.item{
-				max-height: 400px;
+		.container{
+			.welcome{
+				position: absolute;
+			    background-color: rgba(216, 152, 10, 0.4);
+			    top: 58%;
+			    left: 60%;
+			    max-width: 36%;
+			    max-height: 40%;
+			    border-radius: 5px;
+			    padding: 0 10px;
+			    box-sizing: border-box;
+			    color: white;
+
+
+				h1{
+					display: none;
+				}
 			}
 		}
-		h1{
-			display: none;
+
+		.carousel{
+			max-height: 400px;
+
+			.carousel-inner{
+				.item{
+					img{
+						overflow: hidden;
+					}
+				}
+			}
 		}
-
-
 	}
 }
 	
