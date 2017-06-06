@@ -1,0 +1,17 @@
+@import "variables";
+
+body{
+	footer{
+		height: 50px;
+		background: $color-footer;
+
+		li{
+			display: inline-block;
+
+			span{
+				font-size: 30px;
+			}
+		}
+
+	}
+}

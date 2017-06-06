@@ -31,6 +31,14 @@ body .navbar {
   body .navbar .nav .dropdown ul .dropdown6 {
     background: #af2a2a; }
 
+body footer {
+  height: 50px;
+  background: #5b1b3b; }
+  body footer li {
+    display: inline-block; }
+    body footer li span {
+      font-size: 30px; }
+
 body header {
   background: #990033;
   position: relative; }
@@ -48,8 +56,7 @@ body header {
     body header .container .welcome h1 {
       display: none; }
   body header .carousel {
-    max-height: 400px; }
-    body header .carousel .carousel-inner .item img {
-      overflow: hidden; }
+    max-height: 400px;
+    overflow: hidden; }
 
 /*# sourceMappingURL=style.css.map */

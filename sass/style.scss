@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 @import "nav";
 @import "variables";
+@import "footer";
 
 body{
 
@@ -30,12 +31,10 @@ body{
 
 		.carousel{
 			max-height: 400px;
+			overflow: hidden;
 
 			.carousel-inner{
 				.item{
-					img{
-						overflow: hidden;
-					}
 				}
 			}
 		}
