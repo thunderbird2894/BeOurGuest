@@ -1,13 +1,12 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto');
-@import "nav";
 @import "variables";
-@import "footer";
-@import "party";
+@import "nav";
 
 body{
 
+	background: #621919;
+
 	header{
-		background: $color-fondo;
+		background: #621919;
 		position: relative;
 
 		.container{
@@ -23,24 +22,40 @@ body{
 			    box-sizing: border-box;
 			    color: white;
 
-
-				h1{
-					display: none;
-				}
-			}
-		}
-
-		.carousel{
+			    .carousel{
 			max-height: 400px;
 			overflow: hidden;
 
 			.carousel-inner{
 				.item{
+					img{
+						overflow: hidden;
+					}
 				}
 			}
 		}
 	}
 }
-	
+}
+}
 
+.titulo-bajada{
+	background: #621919;
+	position:relative;
+	margin-top: 250px;
+ 
+		h3{
+		color: white;
+		font-size: 36px;
+		}
 
+		p{
+		color: white;
+		margin: auto;
+		}
+}
+
+.recoms{ s
+    display: flex;
+    align-items: stretch;
+}
